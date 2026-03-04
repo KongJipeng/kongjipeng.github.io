@@ -23,8 +23,8 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Jipeng KONG"
+  avatar           : "profile.jpg"
+  name             : "Jipeng KONG （孔继鹏）"
   pronouns         : "he/him"  
   bio              : "Master Student @ ShanghaiTech | Humanoid Robot | Robot Learning"
   location         : "Pudong, Shanghai, China"
@@ -81,6 +81,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  wechat           : shakey1972
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
