@@ -6,7 +6,10 @@ permalink: /teaching/2025-fall-moma
 venue: "ShanghaiTech University, School of Information Science and Technology"
 date: 2025-09-01
 location: "Shanghai, China"
+excerpt: "Teaching Assistant for Mobile Manipulation (Fall 2025) at ShanghaiTech University under Prof. Sören Schwertfeger."
 ---
+
+Teaching Assistant for the Mobile Manipulation course at ShanghaiTech University (Fall 2025), supervised by Prof. Sören Schwertfeger.
 
 ## Course Information
 
