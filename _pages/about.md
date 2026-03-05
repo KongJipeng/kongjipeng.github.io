@@ -27,7 +27,7 @@ Research & Work
 
 - **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)  
   [Paper](https://arxiv.org/abs/2602.05310) | [Project Page](https://soccer-humanoid.github.io/)  
-  * **Jipeng Kong**, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li*  
+  ***Jipeng Kong**, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li*  
   We propose a progressive architecture for humanoid soccer skill acquisition that decomposes learning into motion-skill acquisition, perception-action integration, and sim-to-real transfer. Experiments on the Unitree G1 demonstrate high-fidelity human-like kicking with robust performance under diverse conditions.
 
 
