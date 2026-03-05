@@ -1,23 +1,31 @@
 ---
 permalink: /
-title: "Welcome to KONG Jipeng's Homepage"
+title: "Jipeng KONG (孔继鹏)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+I'm Jipeng KONG (孔继鹏), a Master's student at [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/sist_en/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/eng/)(graduating 2027). Currently, I'm an Intern at [**TeleAI**](https://www.teleai.com.cn/product/AboutTeleAI_en), working on whole-body control for humanoid robots. 
+
+My research focuses on **humanoid robots**, with an emphasis on: 
+- **Robot Learning**: Learning-based methods for skill acquisition
+- **Whole-Body Control**: Coordinated control under physical constraints
+
+I aim to build robust and transferable humanoid skills for real-world tasks.
 
 
 Research & Work
 ======
 
-🤖 **Current Position**: Intern at **TeleAI**, working on whole-body control for humanoid robots.
+- **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)  
+  [Paper](https://arxiv.org/abs/2602.05310) | [Project Page](https://soccer-humanoid.github.io/)  
+  *Jipeng Kong, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li*  
+  We propose a progressive architecture for humanoid soccer skill acquisition that decomposes learning into motion-skill acquisition, perception-action integration, and sim-to-real transfer. Experiments on the Unitree G1 demonstrate high-fidelity human-like kicking with robust performance under diverse conditions.
 
-My research interests span across:
-- **Humanoid Robotics**: Control algorithms and multi-task optimization for humanoid platforms
-- **Robot Learning**: Learning-based approaches for complex motor skills
-- **Whole-Body Control**: Integrating multiple control objectives with physical constraints
+
+
 
 Collaboration & Contact
 ======
