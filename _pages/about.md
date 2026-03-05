@@ -19,6 +19,12 @@ I aim to build robust and transferable humanoid skills for real-world tasks.
 Research & Work
 ======
 
+- **Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction** (arXiv, 2026)  
+  [Paper](https://arxiv.org/abs/2603.01126)
+  *Yuhang Lin, Jiyuan Shi, Dewei Wang, Jipeng Kong, Yong Liu, Chenjia Bai, Xuelong Li*  
+  We introduce Pro-HOI, a generalizable framework for robust humanoid loco-manipulation. Our approach includes motion optimization, a novel policy conditioning scheme, and a perception module for reliable execution. Empirical validation on a Unitree G1 robot demonstrates significant improvements in generalization and robustness.
+
+
 - **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)  
   [Paper](https://arxiv.org/abs/2602.05310) | [Project Page](https://soccer-humanoid.github.io/)  
   *Jipeng Kong, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li*  
