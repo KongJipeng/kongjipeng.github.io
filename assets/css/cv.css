@@ -1,0 +1,47 @@
+/* Styles scoped to the public CV. */
+.cv-sheet {
+  display: grid;
+  gap: 1.1rem;
+  max-width: 53rem;
+  margin: 1.25rem 0 2.5rem;
+  overflow-wrap: anywhere;
+  font-size: .9em;
+}
+
+.cv-section {
+  min-width: 0;
+  padding: clamp(.85rem, 3vw, 1.4rem);
+  border: 1px solid var(--global-border-color);
+  border-radius: .6rem;
+}
+
+.cv-section > h2 {
+  margin: 0;
+  padding-bottom: .55rem;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: 1.28em;
+}
+
+.cv-entry { padding-top: .8rem; }
+.cv-entry + .cv-entry { margin-top: .8rem; border-top: 1px solid var(--global-border-color); }
+.cv-entry__heading { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .25rem .85rem; align-items: baseline; }
+.cv-entry__heading h3 { margin: 0; font-size: 1em; line-height: 1.35; }
+.cv-entry p { margin: .25rem 0 0; line-height: 1.46; }
+.cv-entry .cv-entry__date { margin: 0; font-size: .81em; font-weight: 600; font-variant-numeric: tabular-nums; }
+.cv-entry__meta { font-size: .9em; }
+.cv-entry .cv-entry__links { display: flex; flex-wrap: wrap; gap: .2rem .8rem; font-size: .88em; }
+.cv-honors { margin: .75rem 0 0; padding-inline-start: 1.15rem; }
+.cv-honors li + li { margin-top: .55rem; }
+.cv-honors span { display: block; }
+.cv-section a:focus-visible { outline: 2px solid currentColor; outline-offset: .14rem; }
+
+@media (max-width: 40rem) {
+  .cv-entry__heading { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media print {
+  .cv-section { padding: .35rem 0; border: 0; }
+  .cv-sheet { display: block; max-width: none; }
+  .cv-section > h2 { break-after: avoid; }
+  .cv-entry, .cv-honors li { break-inside: avoid; }
+}
