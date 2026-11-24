@@ -2,7 +2,10 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
+sidebar:
+  - title: "Jipeng KONG"
+    text: "Humanoid robot learning and whole-body control"
 redirect_from:
   - /resume
   - /cv-json/

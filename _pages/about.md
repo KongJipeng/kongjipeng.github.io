@@ -7,12 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm Jipeng KONG (孔继鹏), a master's student in Electronic Information at [**ShanghaiTech University**](https://www.shanghaitech.edu.cn/eng/), advised by Prof. [**Sören Schwertfeger**](https://sist.shanghaitech.edu.cn/soerensch_en/main.htm). From June 2025 to September 2026, I was a research intern at [**TeleAI**](https://www.teleai.com.cn/product/AboutTeleAI_en), working on humanoid whole-body control with Dr. [**Chenjia Bai**](https://baichenjia.cn/).
+I work on **humanoid robot learning and whole-body control**, using reinforcement learning, motion tracking, and sim-to-real testing to develop skills that transfer to hardware.
 
-My research focuses on **robot learning** and **whole-body control** for humanoid robots. I use reinforcement learning and motion tracking to develop skills, then test how well those skills transfer from simulation to real robots.
+## Education & Research Experience
 
-Research & Work
-======
+- **ShanghaiTech University**, M.S. in Electronic Information, 2024–2027 (expected). Advised by Prof. [Sören Schwertfeger](https://sist.shanghaitech.edu.cn/soerensch_en/main.htm).
+- **University of Shanghai for Science and Technology**, B.Eng. in Robotics Engineering, 2020–2024.
+- **TeleAI**, Research Intern, Jun 2025–Sep 2026. Worked with Dr. [Chenjia Bai](https://baichenjia.cn/) on reinforcement learning and real-robot deployment for humanoids.
+
+## Research & Work
 
 - **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)<br />
   [Paper](https://arxiv.org/abs/2602.05310) | [Code](https://github.com/TeleHuman/HumanoidSoccer/)<br />
@@ -30,14 +33,13 @@ Research & Work
   Xiaoman Li, Zhiqiang Yang, Jiayu Hu, **Jipeng Kong**, Yang Zhang, Jingwei Zhang, Fangzheng Yan, Chunhua Shen, Chenjia Bai<br />
   GR-BC uses a goal-reachability graph to prioritize useful action segments from demonstrations and intervention-assisted rollouts.
 
-Selected Projects
-======
+## Selected Projects
 
-- **Humanoid skateboarding:** Reproduced and extended the HUSKY training setup at TeleAI. I redesigned foot trajectories and command sampling to improve mounting, standing starts, and speed transitions for hardware demonstrations.
-- **Humanoid standing and walking:** Helped build the training and deployment pipeline for a TeleAI humanoid, with a focus on reward design, domain randomization, and sim-to-real testing.
+- **Humanoid soccer on Unitree G1:** Led development of PAiD, built and retargeted kicking motions, and integrated RGB-D/LiDAR perception with ball–ground calibration for shooting on hardware.
+- **Humanoid skateboarding:** Reproduced and extended the HUSKY training setup at TeleAI. Redesigned foot trajectories and command sampling to improve mounting and starts in hardware demonstrations.
+- **Humanoid standing and walking:** Helped build the training and deployment pipeline for a TeleAI humanoid. Designed standing and walking rewards and worked on domain randomization and sim-to-real testing.
 
-Collaboration & Contact
-======
+## Collaboration & Contact
 
 👯 I'm always happy to chat or collaborate on robotics-related projects! Whether it's robot learning, humanoid control, or any other robotics challenges, feel free to reach out.
 
