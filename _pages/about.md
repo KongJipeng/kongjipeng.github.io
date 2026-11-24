@@ -15,23 +15,41 @@ I work on **humanoid robot learning and whole-body control**, using reinforcemen
 - **University of Shanghai for Science and Technology**, B.Eng. in Robotics Engineering, 2020–2024.
 - **TeleAI**, Research Intern, Jun 2025–Sep 2026. Worked with Dr. [Chenjia Bai](https://baichenjia.cn/) on reinforcement learning and real-robot deployment for humanoids.
 
-## Research & Work
+## Selected Papers
 
-- **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)<br />
-  [Paper](https://arxiv.org/abs/2602.05310) | [Code](https://github.com/TeleHuman/HumanoidSoccer/)<br />
-  **Jipeng Kong**, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li<br />
-  *Jipeng Kong and Xinzhe Liu contributed equally.*<br />
-  PAiD combines motion tracking, perception-guided adaptation, and ball–ground calibration to teach a Unitree G1 to shoot stationary and rolling balls.
-
-- **Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction** (CoRL 2026)<br />
-  [Paper](https://arxiv.org/abs/2603.01126) | [Project Page](https://pro-hoi.github.io/)<br />
-  Yuhang Lin, Jiyuan Shi, Dewei Wang, **Jipeng Kong**, Yong Liu, Chenjia Bai, Xuelong Li<br />
-  Pro-HOI uses root-trajectory commands and persistent object tracking for humanoid loco-manipulation, including detecting slips and triggering re-grasps.
-
-- **Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic Manipulation** (CoRL 2026)<br />
-  [Paper](https://arxiv.org/abs/2610.20504) | [Project Page](https://gr-bc.github.io/)<br />
-  Xiaoman Li, Zhiqiang Yang, Jiayu Hu, **Jipeng Kong**, Yang Zhang, Jingwei Zhang, Fangzheng Yan, Chunhua Shen, Chenjia Bai<br />
-  GR-BC uses a goal-reachability graph to prioritize useful action segments from demonstrations and intervention-assisted rollouts.
+<div class="paper-highlights">
+  <article class="paper-highlight">
+    <img class="paper-highlight__image" src="{{ "/images/papers/paid.svg" | relative_url }}" width="320" height="192" alt="">
+    <div class="paper-highlight__body">
+      <span class="paper-highlight__venue">arXiv, 2026</span>
+      <h3>Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework</h3>
+      <p class="paper-highlight__authors"><strong>Jipeng Kong</strong>, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li</p>
+      <p class="paper-highlight__note">Jipeng Kong and Xinzhe Liu contributed equally.</p>
+      <p>PAiD combines motion tracking, perception-guided adaptation, and ball–ground calibration to teach a Unitree G1 to shoot stationary and rolling balls.</p>
+      <p class="paper-highlight__links"><a href="https://arxiv.org/abs/2602.05310">Paper</a><a href="https://soccer-humanoid.github.io/">Project Page</a><a href="https://github.com/TeleHuman/HumanoidSoccer/">Code</a></p>
+    </div>
+  </article>
+  <article class="paper-highlight">
+    <img class="paper-highlight__image" src="{{ "/images/papers/pro-hoi.svg" | relative_url }}" width="320" height="192" alt="">
+    <div class="paper-highlight__body">
+      <span class="paper-highlight__venue">CoRL 2026</span>
+      <h3>Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction</h3>
+      <p class="paper-highlight__authors">Yuhang Lin, Jiyuan Shi, Dewei Wang, <strong>Jipeng Kong</strong>, Yong Liu, Chenjia Bai, Xuelong Li</p>
+      <p>Pro-HOI uses root-trajectory commands and persistent object tracking for humanoid loco-manipulation, including detecting slips and triggering re-grasps.</p>
+      <p class="paper-highlight__links"><a href="https://arxiv.org/abs/2603.01126">Paper</a><a href="https://pro-hoi.github.io/">Project Page</a></p>
+    </div>
+  </article>
+  <article class="paper-highlight">
+    <img class="paper-highlight__image" src="{{ "/images/papers/gr-bc.svg" | relative_url }}" width="320" height="192" alt="">
+    <div class="paper-highlight__body">
+      <span class="paper-highlight__venue">CoRL 2026</span>
+      <h3>Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic Manipulation</h3>
+      <p class="paper-highlight__authors">Xiaoman Li, Zhiqiang Yang, Jiayu Hu, <strong>Jipeng Kong</strong>, Yang Zhang, Jingwei Zhang, Fangzheng Yan, Chunhua Shen, Chenjia Bai</p>
+      <p>GR-BC uses a goal-reachability graph to prioritize useful action segments from demonstrations and intervention-assisted rollouts.</p>
+      <p class="paper-highlight__links"><a href="https://arxiv.org/abs/2610.20504">Paper</a><a href="https://gr-bc.github.io/">Project Page</a></p>
+    </div>
+  </article>
+</div>
 
 ## Selected Projects
 

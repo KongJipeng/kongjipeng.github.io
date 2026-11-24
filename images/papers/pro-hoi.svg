@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 192" width="320" height="192">
+  <rect width="320" height="192" rx="18" fill="#e8eff9"/>
+  <path d="M22 147h276M22 32h276" stroke="#85a6d5" stroke-opacity=".45"/>
+  <g color="#285795" fill="none" stroke="#285795" stroke-linecap="round" stroke-linejoin="round"><path d="M65 134h196M78 134V82h30m-30 16h26m137 36V92h15" stroke-width="2" opacity=".55"/><circle cx="135" cy="53" r="12" fill="#fff"/><path d="m136 67 8 28-14 24-16 13m31-37 16 29 17 8m-40-61 14 11 26-5m-42-4 13 19 29-2" stroke-width="6"/><path d="m177 70 38-9 24 14-38 9zm0 0v27l24 15 38-9V75m-38 9v28" fill="#fff" stroke-width="3"/><rect x="169" y="54" width="78" height="66" rx="8" stroke-dasharray="4 5" opacity=".65"/></g>
+  <text x="22" y="170" fill="#285795" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Pro-HOI</text>
+</svg>

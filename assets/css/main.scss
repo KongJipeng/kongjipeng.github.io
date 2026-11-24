@@ -41,3 +41,40 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.paper-highlights {
+  display: grid;
+  gap: .85rem;
+  margin: 1rem 0 2rem;
+}
+
+.paper-highlight {
+  display: grid;
+  grid-template-columns: clamp(5.25rem, 22%, 8rem) minmax(0, 1fr);
+  align-items: start;
+  gap: .85rem;
+  padding: .85rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.paper-highlight__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: .45rem;
+}
+
+.paper-highlight__body {
+  overflow-wrap: anywhere;
+
+  h3 { margin: .15rem 0 .35rem; }
+  p { margin: 0 0 .35rem; font-size: .84em; }
+  .paper-highlight__venue { font-size: .72em; font-weight: 700; }
+  .paper-highlight__note { font-style: italic; }
+  .paper-highlight__links { display: flex; flex-wrap: wrap; gap: .25rem .75rem; margin-bottom: 0; }
+}
+
+@media (max-width: 29em) {
+  .paper-highlight { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+  .paper-highlight__image { width: 6.75rem; }
+}

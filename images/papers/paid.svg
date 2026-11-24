@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 192" width="320" height="192">
+  <rect width="320" height="192" rx="18" fill="#e5f3ef"/>
+  <path d="M22 147h276M22 32h276" stroke="#64aa8d" stroke-opacity=".45"/>
+  <g color="#197453" fill="none" stroke="#197453" stroke-linecap="round" stroke-linejoin="round"><path d="M72 132h174l23-64H119zM160 132l19-64m-62 31h141M232 70v-25h37v24m-25-23v23m12-23v23" stroke-width="2" opacity=".5"/><circle cx="121" cy="58" r="11" fill="#fff"/><path d="m119 71 8 25-24 14-14 16m36-30 30 23 24-5m-58-39-19 10-14-6m33-3 20 9 15-7" stroke-width="6"/><path d="M202 113q29-33 42-27" stroke-dasharray="4 6"/><circle cx="196" cy="116" r="9" fill="#fff"/><path d="m195 112 4 4-4 4-4-4z" fill="currentColor"/></g>
+  <text x="22" y="170" fill="#197453" font-family="system-ui, sans-serif" font-size="16" font-weight="700">PAiD</text>
+</svg>
