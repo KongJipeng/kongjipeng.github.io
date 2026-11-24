@@ -7,31 +7,34 @@ redirect_from:
   - /about.html
 ---
 
-I'm Jipeng KONG (孔继鹏), a Master's student at [**School of Information Science and Technology**](https://sist.shanghaitech.edu.cn/sist_en/), [**ShanghaiTech University**](https://www.shanghaitech.edu.cn/eng/) (graduating 2027), supervised by Prof. [**Sören Schwertfeger**](https://sist.shanghaitech.edu.cn/soerensch_en/main.htm). Currently, I'm an Intern at [**TeleAI**](https://www.teleai.com.cn/product/AboutTeleAI_en), working on whole-body control for humanoid robots under the mentorship of Dr. [**Chenjia Bai**](https://baichenjia.github.io/). 
+I'm Jipeng KONG (孔继鹏), a master's student in Electronic Information at [**ShanghaiTech University**](https://www.shanghaitech.edu.cn/eng/), advised by Prof. [**Sören Schwertfeger**](https://sist.shanghaitech.edu.cn/soerensch_en/main.htm). From June 2025 to September 2026, I was a research intern at [**TeleAI**](https://www.teleai.com.cn/product/AboutTeleAI_en), working on humanoid whole-body control with Dr. [**Chenjia Bai**](https://baichenjia.cn/).
 
-My research focuses on **humanoid robots**, with an emphasis on: 
-- **Robot Learning**: Learning-based methods for skill acquisition
-- **Whole-Body Control**: Coordinated control under physical constraints
-
-I aim to build robust and transferable humanoid skills for real-world tasks.
-
+My research focuses on **robot learning** and **whole-body control** for humanoid robots. I use reinforcement learning and motion tracking to develop skills, then test how well those skills transfer from simulation to real robots.
 
 Research & Work
 ======
 
-- **Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction** (arXiv, 2026)  
-  [Paper](https://arxiv.org/abs/2603.01126)
-  *Yuhang Lin, Jiyuan Shi, Dewei Wang, **Jipeng Kong**, Yong Liu, Chenjia Bai, Xuelong Li*  
-  We introduce Pro-HOI, a generalizable framework for robust humanoid loco-manipulation. Our approach includes motion optimization, a novel policy conditioning scheme, and a perception module for reliable execution. Empirical validation on a Unitree G1 robot demonstrates significant improvements in generalization and robustness.
+- **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)<br />
+  [Paper](https://arxiv.org/abs/2602.05310) | [Code](https://github.com/TeleHuman/HumanoidSoccer/)<br />
+  **Jipeng Kong**, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li<br />
+  *Jipeng Kong and Xinzhe Liu contributed equally.*<br />
+  PAiD combines motion tracking, perception-guided adaptation, and ball–ground calibration to teach a Unitree G1 to shoot stationary and rolling balls.
 
+- **Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction** (CoRL 2026)<br />
+  [Paper](https://arxiv.org/abs/2603.01126) | [Project Page](https://pro-hoi.github.io/)<br />
+  Yuhang Lin, Jiyuan Shi, Dewei Wang, **Jipeng Kong**, Yong Liu, Chenjia Bai, Xuelong Li<br />
+  Pro-HOI uses root-trajectory commands and persistent object tracking for humanoid loco-manipulation, including detecting slips and triggering re-grasps.
 
-- **Learning Soccer Skills for Humanoid Robots: A Progressive Perception-Action Framework** (arXiv, 2026)  
-  [Paper](https://arxiv.org/abs/2602.05310) | [Project Page](https://soccer-humanoid.github.io/)  
-  ***Jipeng Kong**, Xinzhe Liu, Yuhang Lin, Jinrui Han, Sören Schwertfeger, Chenjia Bai, Xuelong Li*  
-  We propose a progressive architecture for humanoid soccer skill acquisition that decomposes learning into motion-skill acquisition, perception-action integration, and sim-to-real transfer. Experiments on the Unitree G1 demonstrate high-fidelity human-like kicking with robust performance under diverse conditions.
+- **Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic Manipulation** (CoRL 2026)<br />
+  [Paper](https://arxiv.org/abs/2610.20504) | [Project Page](https://gr-bc.github.io/)<br />
+  Xiaoman Li, Zhiqiang Yang, Jiayu Hu, **Jipeng Kong**, Yang Zhang, Jingwei Zhang, Fangzheng Yan, Chunhua Shen, Chenjia Bai<br />
+  GR-BC uses a goal-reachability graph to prioritize useful action segments from demonstrations and intervention-assisted rollouts.
 
+Selected Projects
+======
 
-
+- **Humanoid skateboarding:** Reproduced and extended the HUSKY training setup at TeleAI. I redesigned foot trajectories and command sampling to improve mounting, standing starts, and speed transitions for hardware demonstrations.
+- **Humanoid standing and walking:** Helped build the training and deployment pipeline for a TeleAI humanoid, with a focus on reward design, domain randomization, and sim-to-real testing.
 
 Collaboration & Contact
 ======
